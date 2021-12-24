@@ -4,13 +4,9 @@ A CLI Starter for your next [Gluegun](https://infinitered.github.io/gluegun/#/) 
 
 ![Gluegun Menu Demo](assets/demo.gif)
 
-[![License](https://img.shields.io/github/license/TheoryLabs/GluegunStarter)](/LICENSE) [![CircleCI](https://circleci.com/gh/TheoryLabs/GluegunStarter/tree/master.svg?style=shield)](https://circleci.com/gh/TheoryLabs/GluegunStarter/tree/master)
-[![Dependency Status](https://david-dm.org/TheoryLabs/GluegunStarter.svg)](https://david-dm.org/TheoryLabs/GluegunStarter) [![devDependency Status](https://david-dm.org/TheoryLabs/GluegunStarter/dev-status.svg)](https://david-dm.org/TheoryLabs/GluegunStarter?type=dev)
+---
 
-[![GitHub forks](https://img.shields.io/github/forks/TheoryLabs/GluegunStarter)](https://github.com/TheoryLabs/GluegunStarter/fork) [![GitHub stars](https://img.shields.io/github/stars/TheoryLabs/GluegunStarter)](https://github.com/TheoryLabs/GluegunStarter)
-
-## Initialize CLI
-
+## Initial Setup
 
 <!--
 Via lenne.Tech CLI:
@@ -23,7 +19,7 @@ $ lt cli create <CLI_NAME>
 ```
 -->
 
-### Via GitHub
+### GitHub
 
 ```shell
     git clone https://github.com/TheoryLabs/GluegunStarter.git <CLI_NAME>
@@ -32,11 +28,25 @@ $ lt cli create <CLI_NAME>
     npm run rename <CLI_NAME>
 ```
 
-### Via ZIP File
+### Manual
 
 1. Download Starter: https://github.com/TheoryLabs/GluegunStarter/archive/main.zip
-2. Unpack ZIP
-3. Run `npm i && npm run rename <CLI_NAME>` in project directory
+    - `wget https://github.com/TheoryLabs/GluegunStarter/archive/main.zip`
+2. Unpack ZIP File (`main.zip`):
+    - `unzip main.zip`
+3. Rename Unzipped folder:
+    - `mv GluegunStarter-main <CLI_NAME>`
+4. Remove downloaded ZIP file:
+    - `rm main.zip`
+5. Navigate into folder:
+    - `cd <CLI_NAME>`
+6. Run Package Manager installation script: 
+    - `npm i`
+7. Run script to rename the project as your own:
+    - `npm run rename <CLI_NAME>`
+
+---
+
 
 
 <!--
