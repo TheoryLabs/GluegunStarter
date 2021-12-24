@@ -1,4 +1,4 @@
-# Gluegun Starter - CLI
+# Gluegun Starter
 
 A CLI Starter for your next [Gluegun](https://infinitered.github.io/gluegun/#/) CLI project.
 
