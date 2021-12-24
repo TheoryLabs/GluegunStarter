@@ -22,10 +22,10 @@ $ lt cli create <CLI_NAME>
 ### GitHub
 
 ```shell
-    git clone https://github.com/TheoryLabs/GluegunStarter.git <CLI_NAME>
-    cd <CLI_NAME>
-    npm i
-    npm run rename <CLI_NAME>
+git clone https://github.com/TheoryLabs/GluegunStarter.git <CLI_NAME>
+cd <CLI_NAME>
+npm i
+npm run rename <CLI_NAME>
 ```
 
 ### Manual
